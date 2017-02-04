@@ -1,0 +1,35 @@
+﻿Change Log JTS Morsen
+
+v. 1.0.0.1
+- Leerzeichen werden wieder als Leerzeichen " " dargestellt
+- Fehler bei Abbruch innerhalb der letzten 10 Sekunden, da die rote Schrift nicht verschwindet
+
+v. 1.0.0.0
+- finale Version
+- Netzwerkfunktion erstmal deaktiviert
+- Eingabe von Morsezeichen wird gelöscht wenn nicht mehr in der Zeit geschafft
+- Countdown Warnung
+- Leerzeichen werden als Unterstrich "_" dargestellt
+
+v. 0.9.7.2
+- Bug beim Schließen von der Serverfunktion behoben
+
+v. 0.9.7.1
+- neue Lösung für das Beenden des Servers implementiert
+
+v. 0.9.6.10
+- schwerwiegender Fehler beim Wiederaufrufen der Netzwerkfunktion wurde behoben
+
+v. 0.9.6.9
+- schwerwiegender Fehler beim Schließen von der Netzwerkfunktion, wenn man lokalem Server nicht beigetreten ist wurde behoben
+- LAN-IP-Adresse wird beim Starten des Servers angezeigt
+
+v. 0.9.6.8
+- Im "Über"-Fenster Lizenz und Change Log Verknüpfung erstellt
+
+v. 0.9.6.7
+- changelog.txt hinzugefügt
+
+v. 0.9.6.6
+- Fix von Startproblemen beim Morsen beim ersten Ausführen von Start
+- Zeitlimitierung bei Dash-Länge entfernt. Alles was kein Punkt ist wird jetzt als Strich erkannt.
